@@ -1,0 +1,72 @@
+@font-face {
+	font-family: 'calibri, "Andale Mono"';
+	src: url("fonts/calibri.ttf") format('truetype');	
+}
+.font_alpha { font-family: "calibri";}
+p{
+	margin: 0;
+}
+
+.mceEditor > table {
+    width:15cm !important;
+}
+
+.mce-content-body{
+	
+	/*border: 0.1px #D3D3D3 solid!important;*/
+	
+}	
+.nbody{
+    box-sizing: border-box;
+	margin: 50px auto!important;
+	
+	width: 21cm!important; 
+	min-width: 21cm!important; 
+	max-width: 21cm!important; 
+	height: 29.7cm!important;
+    min-height: 29.7cm!important;
+	max-height: 29.7cm!important;
+	padding: 1.5cm 2cm 2cm 2cm!important;
+	
+	
+	border-width: 1px!important;
+	border-style: solid!important;
+	border-color: #959595!important; 
+	
+	background-color: #FFFFFF!important;
+
+	-moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), inset 0 0 10px rgba(0, 0, 0, 0.03)!important; 
+	-webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), inset 0 0 10px rgba(0, 0, 0, 0.03)!important; 
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), inset 0 0 10px rgba(0, 0, 0, 0.03)!important; 
+
+}
+
+@media print{
+    body{
+      padding: 0!important;
+      margin: 0!important;
+    }
+	.mce-content-body{
+		padding: 0!important;
+	    margin: 0!important;
+		border-width: 1px!important;
+		border-style: solid!important;
+		border-color: #959595!important;
+	}	
+
+}
+
+@page {
+    size: A4;
+	margin: 0;
+	padding: 0;
+}
+/*
+@font-face {
+        font-family: "calibri";
+        font-weight: normal;
+        font-style: normal;
+         src: url( "js/themes/modern/advanced/fonts/calibri.ttf") format('truetype');
+     }
+.font_alpha { font-family: "calibri";}
+*/
