@@ -21,8 +21,6 @@ tinymce.init({
     skin: 'oxide',
     content_css: 'document.css',
     content_style: 'body { font-family:Helvetica,Arial,sans-serif; font-size:16px }',
-    max_chars: "10",
-    max_chars_indicator: "lengthBox",
     resize: true,
     min_height: 900,
 
