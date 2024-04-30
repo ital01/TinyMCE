@@ -1,44 +1,53 @@
-body {
+body 
+{
 	background: #fff;
-  }
+}
 
-  /* Disable the blue "focus" border for the editable region */
-  .editable-section:focus-visible {
+/* Disable the blue "focus" border for the editable region */
+.editable-section:focus-visible 
+{
 	outline: none !important;
-  }
+}
 
-  .header,
-  .footer {
+.header,
+.footer 
+{
 	font-size: 0.8rem;
 	color: #ddd;
-  }
+}
 
-  .header {
+.header 
+{
 	display: flex;
 	justify-content: space-between;
 	padding: 0 0 1rem 0;
-  }
+}
 
-  .header .right-text {
+.header .right-text 
+{
 	text-align: right;
-  }
+}
 
-  .footer {
+.footer 
+{
 	padding:2rem 0 0 0;
 	text-align: center;
-  }
+}
 
-  /* Apply page-like styling */
-  @media (min-width: 840px) {
-	html {
-	  background: #eceef4;
+/* Apply page-like styling */
+@media (min-width: 840px) 
+{
+	html 
+	{
+	  background: rgba(0, 0, 0, 0.1);
 	  min-height: 100%;
 	  padding: 0.5rem;
 	}
 
-	body {
+	body 
+	{
 		background-color: #fff;
-		box-shadow: 0 0 4px rgba(0, 0, 0, .15);
+		box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
 		box-sizing: border-box;
 		margin: 1rem auto 0;
 		width: 21cm!important; 
@@ -46,4 +55,4 @@ body {
 		min-height: 29.7cm!important;
 		padding: 1cm 2cm 2cm 2cm!important;
 	}
-  }
+}
